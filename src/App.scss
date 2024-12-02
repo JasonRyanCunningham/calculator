@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+input {
+  padding : 2px;
+  background-color: black;
+  color           : lightgreen;
+  border          : none;
+}
+
+
+$button-size: 50px;
+$clear-button-size: 4 * $button-size;
+.clac-button{
+  width: $button-size;
+  height: $button-size;
+  background-color: whitesmoke;
+}
+
+.clear-button{
+  width: $clear-button-size;
+  height: $button-size;
+  background-color: red;
+  color: white;
+}
+
+#area {
+  padding : 10px;
+  margin: auto;
+  width: 200px;
+  background: gray;
+}
+
+#dual-display{
+  margin: auto;
+  width           : 200px;
+  background-color: black;
+}
+
